@@ -12,6 +12,7 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { ImportantesComponent } from './importantes/importantes.component';
 import { MediaComponent } from './media/media.component';
 import { RegistroComponent } from './registro/registro.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegistroComponent } from './registro/registro.component';
     UnheroeComponent,
     ImportantesComponent,
     MediaComponent,
-    RegistroComponent
+    RegistroComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
