@@ -5,3 +5,22 @@
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     <button  class="btn btn-primary btn-lg" href="#" role="button">Learn more</button>
 </div>
+
+<form (submit)="agregar(newnombre,sexo,email,fecha)" class="formulario">
+    <div class="mb-3" >
+        <label style="font-weight:bolder;" for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input #newnombre type="text" class="form-control" id="Nombre" >
+      </div>
+        <label   style="font-weight:bolder;">Sexo</label> <br>
+        Masculino <input type="radio"  name="sexo" value="1" style="text-align: left;"#sexo> <br><br>
+       Femenino <input type="radio"  name="sexo" value="2" style="text-align: left;"#sexo><br><br>
+    <div class="mb-3">
+      <label  style="font-weight:bolder;" for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" #email>
+    </div>
+
+    <label style="font-weight:bolder;" for="exampleInputEmail1" class="form-label">Fecha de nacimiento</label><br>
+    <input type="date" #fecha> <br><br>
+    
+    <button class="btn btn-primary" >Enviar</button>
+  </form>
