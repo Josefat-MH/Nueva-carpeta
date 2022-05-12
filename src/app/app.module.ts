@@ -13,6 +13,9 @@ import { ImportantesComponent } from './importantes/importantes.component';
 import { MediaComponent } from './media/media.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ModalComponent } from './modal/modal.component';
+import { VideocComponent } from './videoc/videoc.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,8 @@ import { ModalComponent } from './modal/modal.component';
     ImportantesComponent,
     MediaComponent,
     RegistroComponent,
-    ModalComponent
+    ModalComponent,
+    VideocComponent,
   ],
   imports: [
     BrowserModule,

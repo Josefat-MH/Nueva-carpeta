@@ -8,6 +8,7 @@ import { MediaComponent } from './media/media.component';
 import { RegistroComponent } from './registro/registro.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
+import { VideocComponent } from './videoc/videoc.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -16,6 +17,8 @@ const routes: Routes = [
   {path: 'media',component: MediaComponent},
   {path: 'registro',component:RegistroComponent},
   {path: 'importantes',component: ImportantesComponent},
+  {path: 'videoc',component: VideocComponent},
+  
 
 
   {path: 'heroe/:id', component: UnheroeComponent},

@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
 
   agregar(newnombre:any,sexo:any,email:any,fecha:any){
     
+   
     localStorage.setItem('nombre',newnombre.value);
     if(sexo.value==1){
       localStorage.setItem('Sexo', 'Masculino');
