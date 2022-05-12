@@ -12,7 +12,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
   agregar(newnombre:any,sexo:any,email:any,fecha:any){
     
     localStorage.setItem('nombre',newnombre.value);

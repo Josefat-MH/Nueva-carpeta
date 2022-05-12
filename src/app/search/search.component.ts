@@ -32,8 +32,15 @@ export class SearchComponent implements OnInit {
       if(this.indice != -1){
         this.miheroe = this.heroeService.getUnHeroe(this.indice);
       }
+      else{
+        setTimeout(() => {
+          window.location.href = "src\app\heroes\heroes.component.html";
+        },3000 );
+      }
+      
     });
   }
+
 
   ngOnInit(): void {
   }
