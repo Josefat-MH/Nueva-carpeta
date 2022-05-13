@@ -34,7 +34,7 @@ export class SearchComponent implements OnInit {
       }
       else{
         setTimeout(() => {
-          window.location.href = "src\app\heroes\heroes.component.html";
+          window.location.href = "/heroes";
         },3000 );
       }
       
