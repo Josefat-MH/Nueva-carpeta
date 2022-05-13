@@ -84,5 +84,13 @@ export const HEROES: Heroe[] = [
     img: "assets/img/fantastic.png",
     aparicion: "1961-11-01",
     casa: "Marvel"
-  }
+  
+}, 
+{
+  nombre: "Capitan America",
+  bio: "El Capitán América fue diseñado como un supersoldado patriota que luchaba frecuentemente contra las potencias del Eje en la Segunda Guerra Mundial,viste un traje que lleva un motivo de la bandera de los Estados Unidos, y utiliza un escudo casi indestructible que lanza como proyectil.",
+  img: "assets/img/america.png",
+  aparicion: "1941-04-10",
+  casa: "Marvel"
+}
 ];
