@@ -34,7 +34,7 @@ export class SearchComponent implements OnInit {
       }
       else{
         setTimeout(() => {
-          window.location.href = "/heroes";
+          window.location.href = "Nueva-carpeta/heroes";
         },3000 );
       }
       
