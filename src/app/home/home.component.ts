@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { APP_BOOTSTRAP_LISTENER, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,11 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  mostrar: Boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+  
+
+
+aparecer(){
+if (this.mostrar){
+  this.mostrar=false;
+}
+else{
+  this.mostrar=true;
+
+}
+  
+}
+
 
   agregar(newnombre:any,sexo:any,email:any,fecha:any){
     
